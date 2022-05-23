@@ -4,6 +4,7 @@
     height: auto;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* *************** */
@@ -17,13 +18,15 @@
 
 .navBar li {
     display: inline;
-    padding: 2.6em;
+    padding: 2em;
     font-size: 1.7rem;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 .navBar a {
     text-decoration: none;
+    color: black;
 }
 
 .salesNavLink a {
@@ -34,12 +37,15 @@
 /* HERO BANNER */
 /* ********** */
 
-#heroBanner {
-    background: rgba(0, 0, 0, 0.5); 
+.heroBannerImg {
+    background-color: black;
+    height: 450px;
+    width: 100%;
 }
 
 #heroBanner img {
     height: 450px;
     width: 100%;
     object-fit: cover;
+    opacity: 0.6;
 }
