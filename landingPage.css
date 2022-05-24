@@ -176,7 +176,8 @@ li{
 .carouselNav {
     width: 100%;
     display: flex;
-    
+    justify-content: center;
+    padding: 20px;
 }
 
 .carouselIndicator {
@@ -184,6 +185,8 @@ li{
     width: 10px;
     border-radius: 50%;
     border-style: none;
+    margin: 10px;
+    background-color: rgb(163, 154, 154);
 }
 
 /* ********************* */
