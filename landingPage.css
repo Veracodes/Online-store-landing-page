@@ -37,15 +37,45 @@
 /* HERO BANNER */
 /* ********** */
 
-.heroBannerImg {
-    background-color: black;
+#heroBanner {
+    background-image: url(./Images/Hero-Banner-overlay.jpg);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 450px;
     width: 100%;
 }
 
-#heroBanner img {
-    height: 450px;
-    width: 100%;
-    object-fit: cover;
-    opacity: 0.6;
+.heroCotentContainer {
+    box-sizing: border-box;
+    height: 300px;
+    text-align: center;
+    width: 40%;
+    margin-left: 20px;
+    padding: 120px 0 0 65px;
 }
+
+.heroBannerHeadline {
+    color: white;
+    font-size: 2.4em;
+    padding-bottom: 12px;
+}
+
+.heroBannerButton {
+    width: 70%;
+    height: 35px;
+    padding-top: 12px;
+    padding-bottom: 40px;
+    margin-left: 25px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.heroBannerButton a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0;
+}
+
