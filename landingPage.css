@@ -207,5 +207,37 @@ li{
 #bottomPromoBanner {
     background-color: red;
     width: 100%;
-    height: 65px;
+    height: auto;
+    text-align: center;
+    position: sticky;
+}
+
+.bottomPromoContainer {
+    color: white;
+    padding: 15px 15px 0 70px;
+    margin-bottom: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    width: 80%;
+}
+
+.bottomPromoText {
+    letter-spacing: 1px;
+}
+
+.bottomPromoBtn button{
+    background-color: white;
+    border-style: none;
+    width: 40%;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.bottomPromoBtn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
 }
