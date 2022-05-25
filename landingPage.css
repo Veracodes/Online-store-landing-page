@@ -195,9 +195,26 @@ li{
 
 #infoBanner {
     background-color: rgb(199, 185, 185);
-    height: 300px;
+    height: auto;
     width: 100%;
     margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.infoBannerContainer {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.infoBannerCard {
+    width: 33%;
+    height: 300px;
+    border: solid 3px black;
+
 }
 
 /* ************************** */
